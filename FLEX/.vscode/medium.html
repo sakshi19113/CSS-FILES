@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style>
+ *{
+  box-sizing: border-box;
+} 
+ .column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}  
+@media screen and (min-width: 600px) 
+{
+  .body {
+    background-color: brown;
+   grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 930px) 
+{
+  .body {
+    background-color: brown;
+   grid-template-columns: 1fr 1fr;
+  }
+}
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+</style>
+</head>
+<body>
+    <div class="body">
+
+  <div class="column" style="background-color:rgb(189, 122, 122);">
+    <h2>Column 1</h2>
+    <p>TEXT</p>
+  </div>
+  <div class="column" style="background-color:rgb(129, 185, 205);">
+    <h2>Column 2</h2>
+    <p>TEXT</p>
+  </div>
+  <div class="column" style="background-color:rgb(82, 108, 153);">
+    <h2>Column 3</h2>
+    <p>TEXT</p>
+  </div>
+  <div class="column" style="background-color:rgb(242, 200, 200);">
+    <h2>Column 4</h2>
+    <p>TEXT</p>
+  </div>
+</div>
+
+</body>
+</html>

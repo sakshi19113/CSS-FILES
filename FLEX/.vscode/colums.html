@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex {
+            height: 100px;
+            width: auto;
+            border: 2px solid black;
+            column-count: 4;
+            column-rule: 50px 10px #33f;
+            column-rule-style: double;
+            background-color: violet;
+            
+
+        }
+        @media only screen and (max-width: 1980px) and (min-width:1080px) {
+  .flex {
+    background-color: rgb(15, 170, 222);
+
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width:768px) {
+  .flex {
+    background-color: rgb(7, 238, 49);
+
+  }
+}
+@media only screen and (max-width: 360px) and (min-width:767px) {
+  .flex {
+    background-color: rgb(183, 7, 7);
+
+  }
+}
+.a1, .a2, .a3, .a4 {
+    height: 100px;
+    
+    border: 2px salmon;
+}
+
+    </style>
+</head>
+<body>
+    
+        <div class="flex">
+        <div class="a1">sss</div>
+        <div class="a2">sss</div>
+        <div class="a3">sss</div>
+        <div class="a4">sss</div>
+        
+       
+    </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ABSOLUTE POSITIONING</title>
+    <style>
+        .box1 {
+            border: 2px solid black;
+            height: 150px;
+            width: 20vw;
+            position: absolute;
+            top: 0px;
+            }
+            .box2 {
+               
+                border: 2px solid black;
+                height: 150px;
+                width: 20vw;
+                position: absolute;
+                right: 0px;
+            }
+            .box3{
+                height: 150px;
+                width: 20vw;
+                border: 2px solid black;
+                position: absolute;
+                bottom: 0px;
+            }
+            .box4{
+                border: 2px solid rgb(7, 7, 7);
+                width: 20vw;
+                height: 150px;
+                position: absolute;
+                bottom: 0px;
+                right: 0px;
+            }
+            .box5 {
+                border: 2px solid rgb(7, 7, 7);
+                height: 150px;
+                width: 20vw;
+                position: relative; 
+                left: 250px;
+                top: 275px;
+
+            }
+            .abc {
+                margin: 100px;
+                position: relative;
+                height: 700px;
+                width: 800px;
+                background-color: rgb(255, 31, 31);
+                
+            }
+            .box1, .box2, .box3, .box4, .box5 {
+                background-color: rgb(119, 206, 102);
+                text-align: center;
+            }
+            </style>              
+</head>
+<body>
+    <div class="abc" style="border:5px solid green">
+    <div class="box1">box position 1</div>
+    <div class="box2">box position 2</div>
+    <div class="box3">box position 3</div>
+    <div class="box4">box position 4</div>
+    <div class="box5">box position 5</div>
+    </div>
+    
+</body>
+</html>
